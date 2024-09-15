@@ -1,0 +1,80 @@
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #8e2de2, #4a00e0); /* Gradient violet background */
+    margin: 0;
+    padding: 0;
+    color: #fff; /* White text color for better contrast on gradient background */
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+    background-color: #ffffff; /* White background for the container */
+    border-radius: 10px; /* Slightly larger border radius for a softer look */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Softer shadow for the container */
+}
+
+h1 {
+    text-align: center;
+    color: #4a00e0; /* Darker violet color for the header */
+    margin-bottom: 20px;
+}
+
+form {
+    text-align: center;
+    margin: 20px 0;
+}
+
+input[type="file"] {
+    margin: 20px 0;
+    padding: 12px;
+    border: 2px solid #4a00e0; /* Darker violet border for file input */
+    border-radius: 5px;
+    background-color: #f9f9f9; /* Light grey background for file input */
+}
+
+button {
+    background-color: #4a00e0; /* Dark violet background for buttons */
+    color: #ffffff; /* White text color */
+    border: none;
+    padding: 12px 24px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease; /* Smooth transition on hover */
+}
+
+button:hover {
+    background-color: #3a00b1; /* Slightly darker violet on hover */
+}
+
+h2 {
+    color: #ffffff; /* White color for sub-headers */
+    margin-bottom: 15px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin: 10px 0;
+    padding: 10px;
+    background-color: #f1f1f1; /* Light grey background for list items */
+    border: 1px solid #dee2e6; /* Slightly darker grey border for list items */
+    border-radius: 5px;
+}
+
+a {
+    display: inline-block;
+    margin-top: 20px;
+    color: #ffffff; /* White color for links */
+    text-decoration: none;
+    font-size: 16px;
+}
+
+a:hover {
+    text-decoration: underline; /* Underline on hover */
+}
